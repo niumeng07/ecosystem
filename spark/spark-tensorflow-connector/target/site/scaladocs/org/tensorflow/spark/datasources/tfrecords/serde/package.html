@@ -1,0 +1,582 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>serde - spark-tensorflow-connector 1.14.0 API - org.tensorflow.spark.datasources.tfrecords.serde</title>
+          <meta name="description" content="serde - spark - tensorflow - connector 1.14.0 API - org.tensorflow.spark.datasources.tfrecords.serde" />
+          <meta name="keywords" content="serde spark tensorflow connector 1.14.0 API org.tensorflow.spark.datasources.tfrecords.serde" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../../index.html';
+            var hash = 'org.tensorflow.spark.datasources.tfrecords.serde.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../../package.html" class="extype" name="org">org</a>.<a href="../../../../package.html" class="extype" name="org.tensorflow">tensorflow</a>.<a href="../../../package.html" class="extype" name="org.tensorflow.spark">spark</a>.<a href="../../package.html" class="extype" name="org.tensorflow.spark.datasources">datasources</a>.<a href="../package.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords">tfrecords</a></p>
+        <h1>serde</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">serde</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="FeatureDecoder[T]extendsAnyRef"></a>
+      <a id="FeatureDecoder[T]:FeatureDecoder[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="FeatureDecoder.html"><span class="name">FeatureDecoder</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureEncoder" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="FeatureEncoder[T]extendsAnyRef"></a>
+      <a id="FeatureEncoder[T]:FeatureEncoder[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="FeatureEncoder.html"><span class="name">FeatureEncoder</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListDecoder" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="FeatureListDecoder[T]extendsSerializable"></a>
+      <a id="FeatureListDecoder[T]:FeatureListDecoder[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="FeatureListDecoder.html"><span class="name">FeatureListDecoder</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListEncoder" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="FeatureListEncoder[T]extendsSerializable"></a>
+      <a id="FeatureListEncoder[T]:FeatureListEncoder[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="FeatureListEncoder.html"><span class="name">FeatureListEncoder</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.TfRecordRowDecoder" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="TfRecordRowDecoderextendsAnyRef"></a>
+      <a id="TfRecordRowDecoder:TfRecordRowDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="TfRecordRowDecoder.html"><span class="name">TfRecordRowDecoder</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.TfRecordRowEncoder" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="TfRecordRowEncoderextendsAnyRef"></a>
+      <a id="TfRecordRowEncoder:TfRecordRowEncoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="TfRecordRowEncoder.html"><span class="name">TfRecordRowEncoder</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="org.tensorflow.spark.datasources.tfrecords.serde.BinaryFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BinaryFeatureDecoder"></a>
+      <a id="BinaryFeatureDecoder:BinaryFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BinaryFeatureDecoder$.html"><span class="name">BinaryFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to byte array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.BinaryFeatureListDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BinaryFeatureListDecoder"></a>
+      <a id="BinaryFeatureListDecoder:BinaryFeatureListDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BinaryFeatureListDecoder$.html"><span class="name">BinaryFeatureListDecoder</span></a><span class="result"> extends <a href="FeatureListDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListDecoder">FeatureListDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>]]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;FeatureList&quot; to 2-dimensional array of Array[Byte] (a 3-dimensional array)
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.BinaryListFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BinaryListFeatureDecoder"></a>
+      <a id="BinaryListFeatureDecoder:BinaryListFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BinaryListFeatureDecoder$.html"><span class="name">BinaryListFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to array of byte arrays
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.BytesFeatureListEncoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BytesFeatureListEncoder"></a>
+      <a id="BytesFeatureListEncoder:BytesFeatureListEncoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BytesFeatureListEncoder$.html"><span class="name">BytesFeatureListEncoder</span></a><span class="result"> extends <a href="FeatureListEncoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListEncoder">FeatureListEncoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>]]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Encode 2-dimensional String array to TensorFlow &quot;FeatureList&quot; of type BytesList
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.BytesListFeatureEncoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BytesListFeatureEncoder"></a>
+      <a id="BytesListFeatureEncoder:BytesListFeatureEncoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BytesListFeatureEncoder$.html"><span class="name">BytesListFeatureEncoder</span></a><span class="result"> extends <a href="FeatureEncoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureEncoder">FeatureEncoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Encode input value to ByteList
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.DecimalFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DecimalFeatureDecoder"></a>
+      <a id="DecimalFeatureDecoder:DecimalFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DecimalFeatureDecoder$.html"><span class="name">DecimalFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="org.apache.spark.sql.types.Decimal">Decimal</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Decimal
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.DecimalFeatureListDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DecimalFeatureListDecoder"></a>
+      <a id="DecimalFeatureListDecoder:DecimalFeatureListDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DecimalFeatureListDecoder$.html"><span class="name">DecimalFeatureListDecoder</span></a><span class="result"> extends <a href="FeatureListDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListDecoder">FeatureListDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="org.apache.spark.sql.types.Decimal">Decimal</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;FeatureList&quot; to 2-dimensional Decimal array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.DecimalListFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DecimalListFeatureDecoder"></a>
+      <a id="DecimalListFeatureDecoder:DecimalListFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DecimalListFeatureDecoder$.html"><span class="name">DecimalListFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="org.apache.spark.sql.types.Decimal">Decimal</span>]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Decimal array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.DefaultTfRecordRowDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DefaultTfRecordRowDecoder"></a>
+      <a id="DefaultTfRecordRowDecoder:DefaultTfRecordRowDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DefaultTfRecordRowDecoder$.html"><span class="name">DefaultTfRecordRowDecoder</span></a><span class="result"> extends <a href="TfRecordRowDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.TfRecordRowDecoder">TfRecordRowDecoder</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.DefaultTfRecordRowEncoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DefaultTfRecordRowEncoder"></a>
+      <a id="DefaultTfRecordRowEncoder:DefaultTfRecordRowEncoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DefaultTfRecordRowEncoder$.html"><span class="name">DefaultTfRecordRowEncoder</span></a><span class="result"> extends <a href="TfRecordRowEncoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.TfRecordRowEncoder">TfRecordRowEncoder</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.DoubleFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DoubleFeatureDecoder"></a>
+      <a id="DoubleFeatureDecoder:DoubleFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DoubleFeatureDecoder$.html"><span class="name">DoubleFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Double">Double</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Double
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.DoubleFeatureListDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DoubleFeatureListDecoder"></a>
+      <a id="DoubleFeatureListDecoder:DoubleFeatureListDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DoubleFeatureListDecoder$.html"><span class="name">DoubleFeatureListDecoder</span></a><span class="result"> extends <a href="FeatureListDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListDecoder">FeatureListDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Double">Double</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;FeatureList&quot; to 2-dimensional Double array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.DoubleListFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DoubleListFeatureDecoder"></a>
+      <a id="DoubleListFeatureDecoder:DoubleListFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DoubleListFeatureDecoder$.html"><span class="name">DoubleListFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Double">Double</span>]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Double array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.FloatFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FloatFeatureDecoder"></a>
+      <a id="FloatFeatureDecoder:FloatFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FloatFeatureDecoder$.html"><span class="name">FloatFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Float">Float</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Float
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.FloatFeatureListDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FloatFeatureListDecoder"></a>
+      <a id="FloatFeatureListDecoder:FloatFeatureListDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FloatFeatureListDecoder$.html"><span class="name">FloatFeatureListDecoder</span></a><span class="result"> extends <a href="FeatureListDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListDecoder">FeatureListDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Float">Float</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;FeatureList&quot; to 2-dimensional Float array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.FloatFeatureListEncoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FloatFeatureListEncoder"></a>
+      <a id="FloatFeatureListEncoder:FloatFeatureListEncoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FloatFeatureListEncoder$.html"><span class="name">FloatFeatureListEncoder</span></a><span class="result"> extends <a href="FeatureListEncoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListEncoder">FeatureListEncoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Float">Float</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Encode 2-dimensional Float array to TensorFlow &quot;FeatureList&quot; of type FloatList
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.FloatListFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FloatListFeatureDecoder"></a>
+      <a id="FloatListFeatureDecoder:FloatListFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FloatListFeatureDecoder$.html"><span class="name">FloatListFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Float">Float</span>]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Float array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.FloatListFeatureEncoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FloatListFeatureEncoder"></a>
+      <a id="FloatListFeatureEncoder:FloatListFeatureEncoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FloatListFeatureEncoder$.html"><span class="name">FloatListFeatureEncoder</span></a><span class="result"> extends <a href="FeatureEncoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureEncoder">FeatureEncoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Float">Float</span>]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Encode input value to FloatList
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.Int64FeatureListEncoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Int64FeatureListEncoder"></a>
+      <a id="Int64FeatureListEncoder:Int64FeatureListEncoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Int64FeatureListEncoder$.html"><span class="name">Int64FeatureListEncoder</span></a><span class="result"> extends <a href="FeatureListEncoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListEncoder">FeatureListEncoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Long">Long</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Encode 2-dimensional Long array to TensorFlow &quot;FeatureList&quot; of type Int64List
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.Int64ListFeatureEncoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Int64ListFeatureEncoder"></a>
+      <a id="Int64ListFeatureEncoder:Int64ListFeatureEncoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Int64ListFeatureEncoder$.html"><span class="name">Int64ListFeatureEncoder</span></a><span class="result"> extends <a href="FeatureEncoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureEncoder">FeatureEncoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Long">Long</span>]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Encode input value to Int64List
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.IntFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IntFeatureDecoder"></a>
+      <a id="IntFeatureDecoder:IntFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="IntFeatureDecoder$.html"><span class="name">IntFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Int">Int</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Integer
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.IntFeatureListDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IntFeatureListDecoder"></a>
+      <a id="IntFeatureListDecoder:IntFeatureListDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="IntFeatureListDecoder$.html"><span class="name">IntFeatureListDecoder</span></a><span class="result"> extends <a href="FeatureListDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListDecoder">FeatureListDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Int">Int</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;FeatureList&quot; to 2-dimensional Integer array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.IntListFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IntListFeatureDecoder"></a>
+      <a id="IntListFeatureDecoder:IntListFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="IntListFeatureDecoder$.html"><span class="name">IntListFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Int">Int</span>]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Integer array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.LongFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LongFeatureDecoder"></a>
+      <a id="LongFeatureDecoder:LongFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="LongFeatureDecoder$.html"><span class="name">LongFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Long">Long</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Long
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.LongFeatureListDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LongFeatureListDecoder"></a>
+      <a id="LongFeatureListDecoder:LongFeatureListDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="LongFeatureListDecoder$.html"><span class="name">LongFeatureListDecoder</span></a><span class="result"> extends <a href="FeatureListDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListDecoder">FeatureListDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Long">Long</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;FeatureList&quot; to 2-dimensional Long array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.LongListFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LongListFeatureDecoder"></a>
+      <a id="LongListFeatureDecoder:LongListFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="LongListFeatureDecoder$.html"><span class="name">LongListFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Long">Long</span>]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to Long array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.StringFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StringFeatureDecoder"></a>
+      <a id="StringFeatureDecoder:StringFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StringFeatureDecoder$.html"><span class="name">StringFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to String
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.StringFeatureListDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StringFeatureListDecoder"></a>
+      <a id="StringFeatureListDecoder:StringFeatureListDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StringFeatureListDecoder$.html"><span class="name">StringFeatureListDecoder</span></a><span class="result"> extends <a href="FeatureListDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureListDecoder">FeatureListDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Predef.String">String</span>]]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;FeatureList&quot; to 2-dimensional String array
+</p>
+    </li><li name="org.tensorflow.spark.datasources.tfrecords.serde.StringListFeatureDecoder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StringListFeatureDecoder"></a>
+      <a id="StringListFeatureDecoder:StringListFeatureDecoder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StringListFeatureDecoder$.html"><span class="name">StringListFeatureDecoder</span></a><span class="result"> extends <a href="FeatureDecoder.html" class="extype" name="org.tensorflow.spark.datasources.tfrecords.serde.FeatureDecoder">FeatureDecoder</a>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Predef.String">String</span>]]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Decode TensorFlow &quot;Feature&quot; to String array
+</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
